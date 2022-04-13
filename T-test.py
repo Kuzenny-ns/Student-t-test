@@ -1,7 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import math
-import check_rand
 
 n=1000
 np.random.seed(seed=3)
@@ -42,4 +41,3 @@ while(stop != True):
         x[min_index] = avrg
 plots.scatter(y, x)
 plt.show()
-print("End")
